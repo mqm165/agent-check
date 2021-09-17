@@ -1,6 +1,9 @@
-mode con:cols=60 lines=55
+mode con:cols=60 lines=65
 
 @echo off
+
+echo -- Welcome To Skyline Service Check ---
+echo .............................................
 
 set /p router="Enter Router IP: "
 set /p sector="Enter Sector IP: "
