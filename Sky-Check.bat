@@ -1,5 +1,4 @@
-
-
+echo test
 mode con:cols=60 lines=65
 
 @echo off
