@@ -2,7 +2,7 @@
 mode con:cols=60 lines=65
 
 @echo off
-echo hellooooooooooooooooooooooooooooooo
+
 echo -- Welcome To Skyline Service Check ---
 echo .............................................
 
