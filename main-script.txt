@@ -1,3 +1,18 @@
+
+hello
+hi
+\n
+how
+\r
+eeeee
+\n\r
+asdasdad
+<br>
+asdasd
+
+
+
+
 mode con:cols=60 lines=65
 
 @echo off
