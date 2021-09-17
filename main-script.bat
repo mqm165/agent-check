@@ -39,6 +39,9 @@ nslookup www.mqm.com	| findstr "Address Name"
 echo .............................................
 
 
+powershell -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; wget https://raw.githubusercontent.com/mqm165/agent-check/master/main-script.bat -OutFile Sky-Check.bat" > c:/log
+
+
 pause
 
 
