@@ -8,7 +8,6 @@ echo .............................................
 
 set /p router="Enter Router IP: "
 set /p sector="Enter Sector IP: "
-set /p station="Enter station IP: "
 set /p accessPoint="Enter Access Point IP: "
 
 
@@ -20,10 +19,6 @@ ping %router%		| findstr "Pinging Reply"
 echo .............................................
 echo Sector:
 ping %sector%		| findstr "Pinging Reply"
-
-echo .............................................
-echo Station
-ping %station%		| findstr "Pinging Reply"
 
 echo .............................................
 echo Access Point:
@@ -40,6 +35,10 @@ ping 8.8.8.8		| findstr "Pinging Reply"
 echo .............................................
 echo DNS:
 nslookup www.mqm.com	| findstr "Address Name"
+echo .............................................
+
+echo|set /p="Public IP "
+nslookup myip.opendns.com. | findstr /r "Address"
 echo .............................................
 
 
